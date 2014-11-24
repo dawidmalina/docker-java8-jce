@@ -8,7 +8,7 @@ MAINTAINER Dawid Malinowski <dawidmalina@gmail.com>
 ENV REFRESHED_AT 2014-11-13
 
 # install curl
-RUN yum -y install unzip
+RUN yum -y install unzip nc
 
 # download Java Cryptography Extension
 RUN cd /tmp/ && \
